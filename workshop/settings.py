@@ -134,6 +134,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-env.str('APP_PREFIX', default="/")
 VAR1 = env.str('VAR1', default="Not set")
 VAR2 = env.str('VAR2', default="Not set")
